@@ -1,0 +1,261 @@
+body {
+    background-color: #e6eff6;
+    font-family: 'Karla';
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.box {
+    margin-top: 10%;
+    width: 40%;
+    height: 50%;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 10px 10px 8px #888888;
+
+
+}
+
+.upside {
+    background-color: #fff;
+    border-radius: 8px 8px 0px 0px;
+    padding: 20px;
+
+}
+
+h1 {
+    color: #48aca8;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.otuz {
+    color: #c7df54;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.gain {
+    color: #b0b2bb;
+    line-height: 30px;
+
+
+}
+
+.downside {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2bb3b1;
+    border-radius: 0px 0px 0px 6px;
+    flex: 1;
+    padding: 20px;
+    padding-left: 20px;
+
+}
+
+.sidebyside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.month {
+    color: #ddfafa;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+
+h3 {
+    color: #fff;
+    font-size: 30px;
+    margin-right: 15px;
+
+}
+
+.per {
+    color: #6acfd2;
+}
+
+.full {
+    color: #b8fcfb;
+    margin-bottom: 25px;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #4abebd;
+    border-radius: 0px 0px 6px 0px;
+    flex: 1;
+    padding: 20px;
+
+}
+
+.why {
+    color: #ddfafa;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.right {
+    color: #8bdcdd;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.sign {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bfdf32;
+    color: #f5f9cb;
+    font-size: 16px;
+}
+
+.sign:hover {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .box {
+        margin-top: 10%;
+        width: 85%;
+        height: 50%;
+        border-radius: 6px 6px 6px 6px;
+        box-shadow: 3px 3px 2px #888888;
+        margin-bottom: 10%;
+
+
+    }
+
+    .upside {
+        background-color: #fff;
+        border-radius: 6px 6px 0px 0px;
+        padding: 20px;
+
+    }
+
+    h1 {
+        color: #48aca8;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .otuz {
+        color: #c7df54;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .gain {
+        color: #b0b2bb;
+        line-height: 20px;
+        font-size: 14px;
+
+
+    }
+
+    .downside {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .leftside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #2bb3b1;
+        border-radius: 0px 0px 0px 0px;
+        flex: 1;
+        padding: 20px;
+        padding-left: 20px;
+
+    }
+
+
+    h3 {
+        color: #fff;
+        font-size: 30px;
+        margin-right: 15px;
+
+    }
+
+    .per {
+        color: #6acfd2;
+    }
+
+    .full {
+        color: #b8fcfb;
+        margin-bottom: 25px;
+    }
+
+    .rightside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #4abebd;
+        border-radius: 0px 0px 6px 6px;
+        flex: 1;
+        padding: 20px;
+
+
+    }
+
+    .why {
+        color: #ddfafa;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 20px;
+
+    }
+
+    .right {
+        color: #92f4f6;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .sign {
+        width: 90%;
+        height: 45px;
+        border: none;
+        border-radius: 5px;
+        background-color: #bfdf32;
+        color: #f5f9cb;
+        font-size: 16px;
+    }
+
+    .sign:hover {
+        box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+    }
+  }
